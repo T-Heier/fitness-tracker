@@ -43,6 +43,6 @@ const fitnessData = new Schema({
 
 });
 
-const fitnessData = mongoose.model("fitness", fitnessSchema);
+const fitness = mongoose.model("fitness", fitnessData);
 
 module.exports = fitnessData;
